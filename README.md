@@ -1,4 +1,16 @@
-# How to run IT2-FLS Toolbox
-Download or clone the repository into a convenient directory.
-Open MATLAB 2021a or a newer version.
-Then run "fuzzyt2.m" which locates at the root of project.
+**Author :** Andrey Ibleminov
+# Нечеткая система управления трафиком (Fuzzy Traffic Management System)
+Нечеткая система управления трафиком, противодействующая атакам на отказ в обслуживании.
+Система реализована на базе алгоритма Мамдани, для нее разработана система из 27 правил нечетких продукций.
+Разработанная система может быть применена в реальных корпоративных системах для управления трафиком, проходящим через современные коммутаторы (маршрутизаторы) с использованием микроконтроллера с частотой процессора не менее 8 МГц.
+## Требования
+1. Matlab/Simulink (тестировал на R2021а).
+2. Fuzzy Logic Toolbox Add-on.
+## Установка:
+
+* Скачать (склонировать) весь репозиторий на свой компьютер.
+* Запустить Matlab, затем установить надстройку Fuzzy Logic Toolbox используя команду `fuzzy`.
+* Открыть [ddosprotect.fis](./ddosprotect.fis) используя команду:
+`fis = readfis(fileName)` и  `fis = readfis`
+
+
